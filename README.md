@@ -52,13 +52,13 @@ The complete results are in `results/HV_5fold_CV_results_all.xlsx`. They include
 
 ## How to run
 
-**Google Colab:** open a notebook, run all cells, and upload `data/Aliphatic_HV_with_SMILES.xlsx` when asked. The first cell installs the required packages.
+**Google Colab:** open a notebook, run all cells, and upload `data/Aliphatic_HV_with_SMILES.xlsx` when asked (download it from the `data` folder of this repository). The first cell installs the required packages.
 
 **Locally:**
 
 ```bash
-git clone <this repository URL>
-cd HV-matrix-descriptors
+git clone https://github.com/sabaaroosha/aliphatic_hydrocarbons.git
+cd aliphatic_hydrocarbons
 pip install -r requirements.txt
 cd notebooks
 jupyter notebook
